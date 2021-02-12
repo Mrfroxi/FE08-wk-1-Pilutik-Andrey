@@ -1,1 +1,1 @@
-# FE08-wk-1-Pilutik-Andrey
+My homework is in the master branch in the screenshots folder
