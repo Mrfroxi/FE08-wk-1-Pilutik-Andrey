@@ -53,18 +53,18 @@ max-width: 100%;
     border: 1px solid #D98943;;
 
 }
-.awesome-imgInfo__frPict,.awesome-imgInfo__thPict img{
-    padding-left: 22px;
-    padding-top: 19px;
+.awesome-imgInfo__imgBox{
+    max-width: 37px;
+    max-height: 27px;
+    margin: 17px 24px 9px;
 }
-.awesome-imgInfo__scPict img{
-    padding-left: 16px;
-    padding-top: 19px;
+.ImgBoxfr{
+    margin: 19px 22px 13px;
 }
-.awesome-imgInfo__thPict img{
-    padding-left: 24px;
-    padding-top: 19px;
+.ImgBoxsc{
+    margin: 20px 15px 9px;
 }
+
 .awesome-imgInfo__frbox{
     width: 100%;
     display: flex;
