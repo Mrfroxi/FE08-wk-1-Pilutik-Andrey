@@ -1,110 +1,32 @@
-.awesome{
-max-width: 100%;
-
+.awesom-info_hr-div{
+	border-top: 1px solid #D98943 ;
+	width: 64px;
+    height: 2px;
+    margin: 0 auto 25px;
 }
-.awesome-info{
-    max-width: 410px;
-    margin: 0 auto 67px;
+.title{
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	color: #212121;
 }
-.awesome-info__name{
-    width: 100%;
-    text-align: center;
-    color: #212121;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
+.awesome_info-mainName{
     margin-bottom: 25px;
-    font-family: 'Raleway', sans-serif;
 }
-.awesome-info__trait{
-    max-width: 64px;
-    width: 100%;
-    border-top: 2px solid #D98943 ;
-    margin: 0 auto 30px;
-    
+.awesome-info-text{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #86878B;
 }
-.awesome-info__text{
-    text-align: center;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    color: #86878B;
-    font-family: 'Open Sans', sans-serif;
+.awesome_info{
+    max-width:410px ;
+    margin: auto;
 }
-/* 2 */
-.awesome-imgInfo{
-    width: 100%;
-    min-height: 225px;
-    display: flex;
-    flex-direction: row;
-}
-.img_title{
-    flex-grow:1;
-    display: flex;
-    flex-direction: column;
-}
-.Roundimage{
-    border-radius: 50%;
-    max-width: 70px;
-    height: 70px;
-    margin: 0 auto 30px;
-    border: 1px solid #D98943;;
-
-}
-.awesome-imgInfo__imgBox{
-    max-width: 37px;
-    max-height: 27px;
-    margin: 17px 24px 9px;
-}
-.ImgBoxfr{
-    margin: 19px 22px 13px;
-}
-.ImgBoxsc{
-    margin: 20px 15px 9px;
-}
-
-.awesome-imgInfo__frbox{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.awesome-imgInfo__frName,.awesome-imgInfo__thName,.awesome-imgInfo__scName{
-    text-align: center;
-    margin-bottom:16px ;
-}
-.mainText{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
-    color: #333333;
-    font-family: 'Open Sans', sans-serif;
-
-}
-.Lorem_text{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
-    color: #000000;
-    font-family: 'Open Sans', sans-serif;
-}
-.mainName h3{
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
-    color: #333333;
-}
-
-@media (max-width: 740px){
-.awesome-imgInfo{
-    flex-direction: column;
-}
+h2{
+    display: block;
 }

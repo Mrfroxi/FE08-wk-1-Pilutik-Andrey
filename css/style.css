@@ -5,46 +5,71 @@
 *{
 	padding: 0;
 	margin: 0;
-	border: 0;
-}
-*,*:before,*:after{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
-
-nav,footer,header,aside{display: block;}
-
-html,body{
-	height: 100%;
-	width: 100%;
-	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+section{
+	padding: 80px 0;
 }
-input,button,textarea{font-family:inherit;}
-
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner {padding:0;border:0;}
-a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
-
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
-/* По центру инпута */
-::-webkit-input-placeholder {
-    text-align:center;
-    }
 .container{
-    max-width: 1170px;
-    margin: 10px auto 0;
+	max-width: 1170px;
+    margin: auto ;
     padding: 0 15px;
-    width: 100%;
+	list-style: none;
+    text-decoration: none;
+	text-align: center;
+}
+/* second part */
+.awesom_row{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 -15px;
+	padding-top: 80px;
+}
+.row_item{
+	margin: 0 15px;
+	max-width: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.awesom_row_img{
+	width: 70px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	border: 1px solid  orange;
+	margin-bottom: 30px
+}
+.wesom_row_lam{
+	max-width:23px ;
+	height: 30px;
+}
+.wesom_row_keybrd{
+	max-width:37px ;
+	height: 26px;
+}
+.wesom_row_Lihtning{
+	max-width:21px ;
+	height: 33px;
+}
+.awesom_row_name{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 27px;
+	color: #333333;
+	margin-bottom: 16px
+}
+.awesom_row_text{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	color: #000000;
 }
