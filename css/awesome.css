@@ -1,0 +1,32 @@
+.awesom-info_hr-div{
+	border-top: 1px solid #D98943 ;
+	width: 64px;
+    height: 2px;
+    margin: 0 auto 25px;
+}
+.title{
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	color: #212121;
+}
+.awesome_info-mainName{
+    margin-bottom: 25px;
+}
+.awesome-info-text{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #86878B;
+}
+.awesome_info{
+    max-width:410px ;
+    margin: auto;
+}
+h2{
+    display: block;
+}
