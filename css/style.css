@@ -1,11 +1,12 @@
 @import url("../css/awesome.css");
 @import url("../css/fonts.css");
-
+@import url("../css/pricing.css");
 /*Обнуление*/
 *{
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	list-style-type: none;
 }
 section{
 	padding: 80px 0;
@@ -17,59 +18,4 @@ section{
 	list-style: none;
     text-decoration: none;
 	text-align: center;
-}
-/* second part */
-.awesom_row{
-	display: flex;
-	justify-content: space-between;
-	margin: 0 -15px;
-	padding-top: 80px;
-}
-.row_item{
-	margin: 0 15px;
-	max-width: 350px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-.awesom_row_img{
-	width: 70px;
-	height: 70px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 50%;
-	border: 1px solid  orange;
-	margin-bottom: 30px
-}
-.wesom_row_lam{
-	max-width:23px ;
-	height: 30px;
-}
-.wesom_row_keybrd{
-	max-width:37px ;
-	height: 26px;
-}
-.wesom_row_Lihtning{
-	max-width:21px ;
-	height: 33px;
-}
-.awesom_row_name{
-	font-family: Open Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 27px;
-	color: #333333;
-	margin-bottom: 16px
-}
-.awesom_row_text{
-	font-family: Open Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 19px;
-	text-align: center;
-	color: #000000;
 }

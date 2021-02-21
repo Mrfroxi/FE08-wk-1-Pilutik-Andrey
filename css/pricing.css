@@ -1,0 +1,72 @@
+.prising{
+    width: 100%;
+background-color: #e5e5e5;
+}
+.prising_ul{
+    width: 350px;
+    margin: 0 15px;
+    font-family: Open Sans;
+}
+.prising_card{
+    margin: 0 -15px;
+    padding-top: 63px;
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+.prising_basic_ul li{
+    margin-bottom:4px ;
+}
+.li_mainName{
+    margin-bottom:1px
+}
+.li_price{
+    margin-bottom:2px
+}
+.li_price{
+    font-family: "Raleway", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100px;
+}
+.basic_price_color{
+    background: #333333;
+    color: #FFFFFF;
+}
+.li_mainName{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.li_mainName{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    background: #333333;
+}
+.li_button{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 4px;
+    cursor:pointer;
+}
+.basic_color_button{
+    background: #333333;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.color1btn{
+    background: crimson;
+}
+.li_tupe{
+    margin-bottom:4px;
+}
