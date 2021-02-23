@@ -100,3 +100,11 @@ h2{
     font-size: 14px;
     background: #FFFFFF;
 }
+.awesome_info-mainName::after{
+	content: "";
+	display: block;
+	height: 2px;
+	width: 64px;
+	background-color:#E72424 ;
+	margin: 25px auto 0;
+}
