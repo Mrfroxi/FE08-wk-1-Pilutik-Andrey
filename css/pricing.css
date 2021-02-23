@@ -12,6 +12,7 @@ background-color: #e5e5e5;
     padding-top: 63px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 }
 .prising_basic_ul li{
@@ -21,7 +22,8 @@ background-color: #e5e5e5;
     margin-bottom:1px
 }
 .li_price{
-    margin-bottom:2px
+    margin-bottom:2px;
+    text-align: center;
 }
 .li_price{
     font-family: "Raleway", "Arial", sans-serif;

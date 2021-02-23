@@ -1,0 +1,79 @@
+.customers_row_elem{
+    width: 300px;    
+}
+.customers_row{
+    padding-top: 67px;
+    margin: 0 -15px;
+    display: flex;
+    flex-direction: row;
+    align-content:space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.customers_row_elem{
+    margin: 0 15px;
+
+}
+.customers_row_text{
+    border-radius: 7px;
+    background-color: #E2E2E2;
+    text-align: center;
+    position: relative;
+}
+.customers_row_text p{
+    line-height: 19px;
+    color: #86878B;
+    padding:9px 22px 6px 23px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+.customers_row_dude_img{
+    width: 70px;
+    height: 70px;
+}
+.customers_row_dude-bord{
+    display: flex;
+    flex-direction: row;
+    padding-top:22px ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.dudeName{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 12px;
+}
+
+.dude-position{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+} 
+.customers_row_dude-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100px;
+}
+.customers_row_text::after{
+    content: ''; 
+    display: block;
+    position: absolute;
+    border: 13px solid transparent; 
+    border-top: 13px solid #E2E2E2;
+    left: 49px;
+}

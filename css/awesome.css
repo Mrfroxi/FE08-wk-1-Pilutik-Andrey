@@ -14,6 +14,7 @@
 }
 .awesome_info-mainName{
     margin-bottom: 25px;
+	text-align: center;
 }
 .awesome-info-text{
 	font-family: Open Sans;
@@ -36,6 +37,7 @@ h2{
 	justify-content: space-between;
 	margin: 0 -15px;
 	padding-top: 80px;
+	justify-content: center;
 }
 .row_item{
 	margin: 0 15px;

@@ -1,6 +1,7 @@
 @import url("../css/awesome.css");
 @import url("../css/fonts.css");
 @import url("../css/pricing.css");
+@import url("../css/customers.css");
 /*Обнуление*/
 *{
 	padding: 0;
@@ -17,5 +18,5 @@ section{
     padding: 0 15px;
 	list-style: none;
     text-decoration: none;
-	text-align: center;
+
 }
