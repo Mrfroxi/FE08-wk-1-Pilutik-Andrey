@@ -139,3 +139,15 @@ a{
     position: relative;
     z-index: 2;
 }
+.customers_img{
+cursor: pointer;
+}
+.customers_img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    border: 3px solid rgb(197, 152, 28);
+    border-radius: 50%;
+    
+  }
+  
