@@ -3,6 +3,10 @@
 @import url("../css/pricing.css");
 @import url("../css/customers.css");
 @import url("../css/stylish.css");
+@import url("../css/header.css");
+@import url("../css/footer.css");
+@import url("../css/social.css");
+
 /*Обнуление*/
 *{
 	padding: 0;
@@ -20,4 +24,12 @@ section{
 	list-style: none;
     text-decoration: none;
 
+}
+.social_logo{
+	font-size: 42px;
+	color: rgb(204, 184, 184);
+}
+.social_logo:hover{
+	color: rgb(104, 160, 20);
+	transform: scale(1.5,1.5);
 }

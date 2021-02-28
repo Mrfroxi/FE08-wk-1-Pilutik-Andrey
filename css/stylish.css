@@ -20,7 +20,7 @@
     margin: 34px auto;
 }
 .stylish_text{
-    font-family: Raleway;
+    font-family:'Raleway', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -150,4 +150,3 @@ cursor: pointer;
     border-radius: 50%;
     
   }
-  

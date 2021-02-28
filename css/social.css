@@ -1,0 +1,39 @@
+.socialMedia{
+    background-color:#F8EFEF; 
+}
+.social_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.socialMedia_text{
+    width:365px;
+}
+.socialMedia_name{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    padding-bottom: 18px;
+}
+.socialMedia_tx{ 
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #86878B;
+}
+.socialMedia_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 690px;
+    height: 48px;
+}
