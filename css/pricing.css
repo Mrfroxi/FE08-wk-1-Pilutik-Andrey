@@ -73,3 +73,7 @@ background-color: #e5e5e5;
 .li_tupe{
     margin-bottom:4px;
 }
+.prising_ul:hover{
+    transition: 0.3s ease-in-out;
+    transform: translateY(-15px);
+}

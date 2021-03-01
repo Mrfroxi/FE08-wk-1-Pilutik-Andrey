@@ -12,7 +12,7 @@
     align-items: center;
     max-width: 1170px;
 }
-.nav_head_li{
+.nav_head_lia{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -30,4 +30,28 @@
     justify-content: space-around;
     align-items: center;
     width: 480px;
+}
+.nav_span{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+}
+.nav_head_li{
+    display: flex;
+    flex-direction: column;
+
+}
+.nav_head_lia{
+    margin-bottom: 5px;
+}
+.nav_head_lia:hover~span{
+    background-color: rgb(56, 197, 13);
+    width: 100%;
+    transition: 0.7s ease-in-out;
+
+}
+.nav_head_lia:hover{
+    color: rgba(150, 206, 87, 0.89);
+    transition: 0.3s ease-in-out;
 }
