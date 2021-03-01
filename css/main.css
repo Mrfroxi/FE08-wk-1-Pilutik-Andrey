@@ -54,15 +54,13 @@
     padding:50px 0 100px;
 }
 .main_freepart{
-    width: 370px;
-    background-color: #FFFFFF;
+    max-width: 370px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 0 10px;
-    align-items: center;
-    text-align: center;
+    flex-grow: 1
+
 }
 .main_freepart_name{
     font-family: "Open Sans";
@@ -72,4 +70,32 @@
     line-height: 27px;
     display: flex;
     color: #333333;
+}
+.contact_menu{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0
+}
+.maimenu{
+    width: 100%;
+    height: 56px;
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-right: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    outline: none;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    background-color: transparent;
+}
+.main-up{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+.maimenu{
+    border-radius:1px solid red ;
 }
