@@ -136,7 +136,7 @@ input:focus ~ label, input:valid ~ label {
 .closing-button {
   text-decoration: none;
   display: block;
-  margin: 0 501px;
+  margin: 10px auto;
   color: white;
   box-shadow: 0 0 0 2px white;
   padding: 20px 0;

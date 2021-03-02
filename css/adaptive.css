@@ -1,0 +1,15 @@
+@media (max-width: 1190px){
+    .transition-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .trans-block{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto 40px;
+    }
+    .tab-block{
+        margin:0 15px;
+    }
+    .transition-text
+}
