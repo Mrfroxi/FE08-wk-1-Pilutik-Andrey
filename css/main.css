@@ -128,3 +128,52 @@ main{
     position: relative;
     z-index: 2;
 }
+.main_btna{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1px 140px;
+}
+/* left btn */
+
+.gradient-button {
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #833ab4 0%, #fd1d1d 51%, #fcb045 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    cursor: pointer;
+  }
+  .gradient-button:hover {
+    background-position: right center;
+  }
+.passwordhi{
+    display:inline-block;
+    background-image: url(../img/not-visible-interface-symbol-of-an-eye-with-a-slash-on-it_icon-icons.com_57783.png);
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 8px;
+    left: 262px;
+}
+.contact_group{
+    position: relative;
+}

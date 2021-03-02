@@ -1,0 +1,82 @@
+.transition-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.trans-block{
+
+}
+.tab-block{
+    height: 110px;
+    background: #333333;
+    border-radius: 4px;
+    width: 112px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 35px
+    
+}
+.flex-startbl,.flex-seconbl{
+    margin-bottom:10px ;
+}
+.flex-startbl {
+    background: #EC7979;
+}
+.transition-text>p{
+    font-weight:400;
+    width: 572px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #86878B;
+    
+}
+.transition-flex{
+    margin: 0 -15px;
+}
+.trans-block,.transition-text,.transition-img{
+    margin: 0 15px;
+}
+.transitionh{
+    margin-bottom: 79px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+.firts-transp{
+    margin-bottom: 42px;
+}
+.second-transitionp{
+    margin-bottom: 111px;
+}
+.transition-img{
+    width: 320;
+    height: 253px;
+}
+.flex-startbl:hover{
+    transition: 0.7s;
+    transform: translateX(-10px);
+    background-color: #333333;
+}
+.flex-seconbl:hover{
+    transition: 0.7s;
+    transform: translateX(10px);
+    background-color: #EC7979;
+}
+.td-block:hover{
+    transition: 0.7s;
+    transform: translateX(-10px);
+    background-color: #EC7979;
+}
