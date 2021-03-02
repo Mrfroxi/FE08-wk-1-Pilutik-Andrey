@@ -84,7 +84,7 @@ input:focus ~ label, input:valid ~ label {
     border: none;
     border-bottom: 1px solid #ccc;
     position: relative;
-    top: 133px;
+    top: 118px;
     left: 0px;
 }
 
