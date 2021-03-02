@@ -11,5 +11,37 @@
     .tab-block{
         margin:0 15px;
     }
-    .transition-text
+    .transition-text{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .transitionh{
+        margin-bottom: 39px
+    }
+    .second-transitionp{
+        margin-bottom: 40px
+    }
+    .gradient-button{
+        margin-bottom: 40px
+    }
+    .transition-img{
+        margin: 0 auto;
+}
+ .mainflex{
+     display: flex;
+     flex-direction: column;
+ }
+ .maintext,.main_mainlorem{
+     text-align: center;
+ }
+ .main_maintext::after{
+    margin: 18px auto;
+ }
+ .main_mainlorem{
+     margin: 20px auto;
+     max-width: 469px;
+ }
+}
+@media(max-width:750px){
+
 }
