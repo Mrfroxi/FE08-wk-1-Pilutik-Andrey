@@ -41,7 +41,33 @@
      margin: 20px auto;
      max-width: 469px;
  }
+ .contact_menu{
+     flex-direction: column;
+     text-align: center;
+     justify-content: center;
+    align-items: center;
+ }
+ .closing-button{
+     margin:173px auto 
+    }
+
+.row_item{
+	padding-bottom: 35px;
+}
+.prising_ul{
+    padding-bottom: 35px;
+}
+.customers_row_elem{
+    padding-bottom: 35px;
+}
 }
 @media(max-width:750px){
 
+}
+
+@media(max-width:450px){
+    .tab-block{
+        width: 96px;
+        padding: 27px;
+    }
 }

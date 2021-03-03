@@ -89,7 +89,7 @@ input:focus ~ label, input:valid ~ label {
 }
 
 .message_input:focus ~ div {
-    top: -15px;
+    top: -8px;
     font-size: 18px;
     color: #b40b43;
 
@@ -99,7 +99,7 @@ input:focus ~ label, input:valid ~ label {
     position: absolute;
     pointer-events: none;
     left: 10px;
-    top: 15px;
+    top: 62px;
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
@@ -173,4 +173,7 @@ input:focus ~ label, input:valid ~ label {
 }
 .closing-button:hover:before, .closing-button:hover:after {
   transform: translateX(0);
+}
+textarea{
+  resize: none;
 }
