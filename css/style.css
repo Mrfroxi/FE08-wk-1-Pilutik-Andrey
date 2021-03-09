@@ -38,3 +38,42 @@ section{
 	transform: scale(1.5,1.5);
 }
 html { overflow-x: hidden; }
+
+@media (max-width:1200px){
+	.container{
+		max-width: 970px;
+	}
+}
+@media (max-width:992px){
+	.container{
+		max-width: 750px;
+	}
+}
+@media (max-width:767px){
+	.container{
+		max-width: 90%;
+	}
+
+}
+@media (max-width:560px){
+	.socialMedia_text{
+		min-width: 180px;
+	}
+	.fab, .far {
+		font-size: 32px
+	}
+}
+@media (max-width:520px){
+	.social_logo {
+		margin: 7px;
+	}
+	.socialMedia_logo{
+		flex-direction: column;
+		position: relative;
+		left: 70px;
+		top: -60px;
+	}
+}
+
+
+
